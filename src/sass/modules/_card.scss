@@ -1,0 +1,54 @@
+/* below code are written in modules/_card.scss file*/
+.card{
+    &__content{
+        text-align: center;
+        padding: 15px;
+        h4,p,.btn{
+            padding: 10px;
+        }
+        
+    }
+    &--default{
+        background-color: $white;
+    }
+    &--skyblue{
+        background-color: $second-btn-bg;
+    }
+    &--pink{
+        background-color: $third-btn-bg;
+    }
+    &--brown{
+        background-color: $four-btn-bg;
+    }
+    &--button{
+        @extend %btn-global;
+
+        &-brown{
+            background-color:$card-first-third-btn-bg;
+        }
+        &-blue{
+            background-color: $card-second-btn-color;
+        }
+        &-pink{
+            background-color: $card-four-btn-color;
+        }
+     }
+}
+
+.feature-card{
+    h3{
+        font-weight: bold;
+        padding: 10px;
+        color:#212121;
+    }
+    p{
+        padding: 10px;
+        color: #575757;
+    }
+    .card--button{
+        background-color: red;
+    }
+    .card-2{
+        padding: 10px;
+    }
+}

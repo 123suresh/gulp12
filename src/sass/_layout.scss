@@ -1,0 +1,86 @@
+/* below code are written in _layout.scss file*/
+.section-service{
+    background-color: #F6F6F6;
+    margin: 80px;
+}
+.section-feature{
+    background-color: #FFFFFF;
+    margin: 80px;
+}
+.card{
+    display: flex;
+    padding:50px;
+    &-wrap{
+        margin: 15px;
+    }
+    &__btn{
+        margin-top: 70px;
+        padding: 20px;
+    }
+}
+.feature-total-body{
+    background-color: $white;
+    padding: 50px;
+}
+.feature__body{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.feature-card{
+    width: 300px;
+}
+
+.image{
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        padding:0px;
+        &-wrap{
+            margin: 5px;
+        }
+        &__btn{
+            margin-top: 20px;
+            padding: 0px;
+        }
+    } 
+    .section-feature{
+        margin: 10px;
+    }
+    .feature-total-body{
+        padding: 10px;
+    }
+    .feature__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    .feature-card{
+        width: 200px;
+    }
+    
+    .image{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .demo{
+        width: 300px;
+        text-align: center;
+    }
+}
+h1{
+    color: $h1-color;
+}
+p{
+    color: $p-color;
+}

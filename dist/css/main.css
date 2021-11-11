@@ -1,0 +1,196 @@
+/* below code are written in main.scss file*/
+/* below code are written in _variables.scss file*/
+/* below code are written in _base.scss file*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: "Roboto", sans-serif;
+}
+
+/* below code are written in _section-header.scss file*/
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.demo {
+  width: 650px;
+  text-align: center;
+}
+.demo h1 {
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.demo .feature-h1 {
+  color: red;
+}
+
+/* below code are written in _layout.scss file*/
+.section-service {
+  background-color: #F6F6F6;
+  margin: 80px;
+}
+
+.section-feature {
+  background-color: #FFFFFF;
+  margin: 80px;
+}
+
+.card {
+  display: flex;
+  padding: 50px;
+}
+.card-wrap {
+  margin: 15px;
+}
+.card__btn {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.feature-total-body {
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+
+.feature__body {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.feature-card {
+  width: 300px;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .card-wrap {
+    margin: 5px;
+  }
+  .card__btn {
+    margin-top: 20px;
+    padding: 0px;
+  }
+
+  .section-feature {
+    margin: 10px;
+  }
+
+  .feature-total-body {
+    padding: 10px;
+  }
+
+  .feature__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+  }
+
+  .feature-card {
+    width: 200px;
+  }
+
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .demo {
+    width: 300px;
+    text-align: center;
+  }
+}
+h1 {
+  color: #212121;
+}
+
+p {
+  color: #575757;
+}
+
+/* below code are written in modules/_card.scss file*/
+.card__content {
+  text-align: center;
+  padding: 15px;
+}
+.card__content h4, .card__content p, .card__content .btn {
+  padding: 10px;
+}
+.card--default {
+  background-color: #FFFFFF;
+}
+.card--skyblue {
+  background-color: #E4F2FF;
+}
+.card--pink {
+  background-color: #D1DFBF;
+}
+.card--brown {
+  background-color: #F9DBDB;
+}
+.card--button-brown {
+  background-color: #696969;
+}
+.card--button-blue {
+  background-color: #000080;
+}
+.card--button-pink {
+  background-color: #B75F5F;
+}
+
+.feature-card h3 {
+  font-weight: bold;
+  padding: 10px;
+  color: #212121;
+}
+.feature-card p {
+  padding: 10px;
+  color: #575757;
+}
+.feature-card .card--button {
+  background-color: red;
+}
+.feature-card .card-2 {
+  padding: 10px;
+}
+
+/* below code are written in _btn.scss file*/
+.card--button {
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+}
+
+/* below code are written in modules/_images.scss file*/
+.feature__body img {
+  border-radius: 50%;
+  border: 10px solid #F9DBDB;
+}
+
+.demo {
+  font-family: "Roboto Slab", serif;
+}
+
+.card__content > h4 {
+  font-family: "Roboto Slab", serif;
+}
+
+.feature__body > h3 {
+  font-family: "Roboto Slab", serif;
+}

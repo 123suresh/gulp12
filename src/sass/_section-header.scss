@@ -1,0 +1,17 @@
+/* below code are written in _section-header.scss file*/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.demo{
+    width: 650px;
+    text-align: center;
+    h1{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+     }
+    .feature-h1{
+        color: red;
+    }
+}
